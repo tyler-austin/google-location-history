@@ -1,0 +1,45 @@
+{
+    "timestampMs": "1486008038391",
+    "accuracy": 20,
+    "altitude": 74,
+    "heading": 81,
+    "latitudeE7": 38.889282,
+    "longitudeE7": -77.049171,
+    "velocity": 16,
+    "activitys": [{
+        "timestampMs": "1486008038391",
+        "extras": [ {
+            "type" : "value",
+            "name" : "vehicle_personal_confidence",
+            "intVal" : 100
+        }],
+        "activities": [{
+            "type" : "still",
+            "confidence" : 55
+        }, {
+            "type" : "walking",
+            "confidence" : 25
+        }, {
+            "type" : "running",
+            "confidence" : 20
+        }, {
+            "type" : "onFoot",
+            "confidence" : 40
+        }, {
+            "type" : "onBicycle",
+            "confidence" : 80
+        }, {
+            "type" : "inVehicle",
+            "confidence" : 85
+        }, {
+            "type" : "exitingVehicle",
+            "confidence" : 15
+        }, {
+            "type" : "tilting",
+            "confidence" : 50
+        }, {
+            "type" : "unknown",
+            "confidence" : 30
+        }]
+    }]  
+}
